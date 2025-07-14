@@ -1,0 +1,12 @@
+Scene text information extraction plays an important role in many computer vision applications. Most features in existing text extraction algorithms are only applicable to one text extraction stage (text detection or recognition), which significantly weakens the consistency in an end-to-end system, especially for complex Chinese texts.
+
+To tackle this challenging problem, we propose a novel text structure feature extractor based on a Text Structure Component Detector (TSCD) layer and residual network for Chinese texts.
+
+Inspired by the three-layer Chinese text cognition model of the human brain, we combine the TSCD layer and the residual network to extract features suitable for both text extraction stages:
+
+The TSCD layer specializes in modeling Chinese character structures and simulates the key structure component cognition layer in the psychological model.
+
+The residual mechanism in the residual network simulates the bidirectional connections among cognitive layers, maintaining the consistency of information flow.
+
+Through the organic combination of the TSCD layer and residual network, the extracted features become applicable to both text detection and recognition, mirroring the human process of understanding written Chinese.
+

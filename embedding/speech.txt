@@ -1,0 +1,25 @@
+ Scene text information extraction plays an important role in many computer vision applications.
+ Most features in existing text extraction algorithms are only applicable to one text extraction stage (text
+ detection or recognition), which signi cantly weakens the consistency in an end-to-end system, especially
+ for the complex Chinese texts. 
+ To tackle this challenging problem, we propose a novel text structure feature
+ extractor based on a text structure component detector (TSCD) layer and residual network for Chinese texts.
+ Inspired by the three-layer Chinese text cognition model of a human, we combine the TSCD layer and
+ the residual network to extract features suitable for both text extraction stages. The specialized modeling
+ for Chinese characters in the TSCD layer simulates the key structure component cognition layer in the
+ psychological model. And the residual mechanism in the residual network simulates the key bidirectional
+ connection among the layers in the psychological model. Through the organic combination of the TSCD
+ layer and the residual network, the extracted features are applicable to both text detection and recognition,
+ as humans do. 
+ In evaluation, both text detection and recognition models based on our proposed text structure
+ feature extractor achieve great improvements over baseline CNN models. And an end-to-end Chinese text
+ information extraction system is experimentally designed and evaluated, showing the advantage of the
+ proposed feature extractor as a uni ed feature extractor.
+
+ It is a distressing and oppressive duty, gentlemen of the Congress, which I have performed in thus addressing you. 
+ There are, it may be, many months of fiery trial and sacrifice ahead of us. It is a fearful thing to lead this great peaceful people into war, into the most terrible and disastrous of all wars, civilization itself seeming to be in the balance. 
+ But the right is more precious than peace, and we shall fight for the things which we have always carried nearest our hearts—for democracy, for the right of those who submit to authority to have a voice in their own governments, for the rights and liberties of small nations, for a universal dominion of right by such a concert of free peoples as shall bring peace and safety to all nations and make the world itself at last free.
+
+To such a task we can dedicate our lives and our fortunes, everything that we are and everything that we have, with the pride of those who know that the day has come when America is privileged to spend her blood and her might for the principles.
+ that gave her birth and happiness and the peace which she has treasured. 
+God helping her, she can do no other.
